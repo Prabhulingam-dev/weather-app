@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css" integrity="sha512-5A8nwdMOWrSz20fDsjczgUidUBR8liPYU+WymTZP1lmY9G6Oc7HlZv156XqnsgNUzTyMefFTcsFH/tnJE/+xBg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="./index.css"></link>
+</head>
+<body>
+    <section class="card">
+        <h3>Weather Application</h3>
+        <input type="text" id="cityname" list="citynamedata" placeholder="Enter the city name"/>
+        <datalist id="citynamedata">
+            <option value="Mumbai"></option>
+            <option value="Chennai" ></option>
+            <option value="Hyderabad" ></option>
+            <option value="Tamilnadu" ></option> 
+        </datalist>
+        <button id="submitbtn"><img src="./assessts/search-icon-2044x2048-psdrpqwp.png" width="15vw" height="20vh" ></img></button>
+
+        <section class="display">
+            <h4>Weather Details are here.</h4>
+            <h5 id="cname"></h5>
+            <p id="temp"></p>
+            <p id="humid"></p>
+            <p id="wind"></p>
+        </section>
+    </section>
+
+    <!-- js-integration -->
+     <script src="./Main.js"></script>
+</body>
+</html>
